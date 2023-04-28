@@ -59,6 +59,7 @@ nav ul {
     padding: 1rem;
     margin: 2rem;
     justify-self: center;
+    width: -webkit-fill-available;
 }
 
 .style img {
@@ -121,6 +122,18 @@ h1 {
     height: 100vh;
     display: grid;
     align-items: center;
+    align-content: center;
+}
+
+.sobre-mi h2{
+    margin: 2rem;
+    font-size:xx-large;
+}
+
+.sobre-mi p{
+    font-size: x-large;
+    text-align: center;
+
 }
 
 table {
@@ -170,7 +183,12 @@ li {
     font-size: xx-large;
 }
 
-.details {
+.educacion p{
+    font-size: x-large;
+    text-align: center;
+}
+
+.details{
     text-align: center;
     margin: 2rem;
     font-size: larger;
