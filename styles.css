@@ -213,11 +213,6 @@ li {
     justify-content: center;
 }
 
-.contacto p {
-    text-align: center;
-    font-size: large;
-}
-
 footer nav ul {
     display: flex;
 }

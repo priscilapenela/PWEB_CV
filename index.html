@@ -20,6 +20,7 @@
                 <li><a href="#conocimientos">Conocimientos</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
+
         </nav>
     </header>
 
@@ -99,7 +100,7 @@
         </section>
         <section id="contact" class="contacto">
             <h2>Contacto</h2>
-            <p>Enviame tus datos y yo me contactaré contigo</p>
+            <p class="text-center">Enviame tus datos y yo me contactaré contigo</p>
             <div class="container">
                 <form id="formulario" class="mt-3">
 
@@ -132,11 +133,6 @@
                             </span>
                         </div>
                     </div>
-
-                    <div class="row mb-3">
-
-                    </div>
-
                     <div class="row mb-3">
                         <label for="inputemail" class="col-2 col-form-label">Email</label>
                         <div class="col-10">
@@ -148,9 +144,20 @@
                     </div>
                     <div class="d-grid gap-2 col-6 mx-auto">
                         <button type="submit" class="btn btn-dark" id="send">Enviar</button>
+                        <div></div>
                     </div>
-
                 </form>
+            </div>
+            <div class="container" id="botonLista">
+                <div class="d-flex mt-4 " id="lista">
+                    <div class="p-2">
+                        <p>Presiona el boton para ver la lista de Propuestas Laborales</p>
+                    </div>   
+                    <div class="p-2">
+                        <button type="button" class="btn btn-secondary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" >Lista</button>
+                    </div> 
+                </div>
+                <div></div>
             </div>
         </section>
     </main>
